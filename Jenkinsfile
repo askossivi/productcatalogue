@@ -1,4 +1,4 @@
-currentBuild.displayName = "Java_App_Demo # "+currentBuild.number
+currentBuild.displayName = "Java_Demo_App_Pro # "+currentBuild.number
 
    def getDockerTag(){
         def tag = sh script: 'git rev-parse HEAD', returnStdout: true
